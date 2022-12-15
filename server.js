@@ -9,9 +9,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/'));
 
 var conexion = mysql.createConnection({
-	host: "Localhost",
-	user: "root",
-	password: "admin",
+	host: "34.232.233.57",
+	user: "Amir",
+	password: "myDB123",
 	database: "Colectivo_Sur_Real"
 });
 
