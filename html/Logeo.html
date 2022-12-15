@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logeo</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <!-- Logeo CSS -->
+    <link rel="stylesheet" href="../css/Logeo.css">
+    <!-- Icono CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login">
+        <h1>Login  | <a  href="https://www.configuroweb.com/46-aplicaciones-gratuitas-en-php-python-y-javascript/#Aplicaciones-gratuitas-en-PHP,-Python-y-Javascript">ConfiguroWeb</a></h1>
+        <form action="/auth" method="post">
+            <label for="username">
+                <!-- font awesome icon -->
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="username" placeholder="Usuario" id="username" required>
+            <label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
+            <input type="password" name="password" placeholder="Contraseña" id="password" required>
+            <input type="submit" value="Ingresar">
+        </form>
+    </div>
+    
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Ingresar</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Gmail" class="input" id="username">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Contraseña" class="password" id="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Olvidaste la contraseña?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Ingresar</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>No tienes una cuenta? <a href="#" class="link signup-link">Siguiente</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Ingresar con Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="img/Icono_Google.png" alt="" class="google-img">
+                    <span>Ingresar con Google</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Gmail" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Crear contraseña" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirmar contraseña" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Siguiente</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Ya tienes una cuenta? <a href="#" class="link login-link">Ingresar</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Ingresar con Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="img/Icono_Google.png" alt="" class="google-img">
+                    <span>Ingresar con Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Logeo JS -->
+<script src="js/Logeo.js"></script>
+<!-- Conexion a la base de datos -->
+<script src="../Conexion.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #868685;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52' viewBox='0 0 52 52'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M0 17.83V0h17.83a3 3 0 0 1-5.66 2H5.9A5 5 0 0 1 2 5.9v6.27a3 3 0 0 1-2 5.66zm0 18.34a3 3 0 0 1 2 5.66v6.27A5 5 0 0 1 5.9 52h6.27a3 3 0 0 1 5.66 0H0V36.17zM36.17 52a3 3 0 0 1 5.66 0h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 0 1 0-5.66V52H36.17zM0 31.93v-9.78a5 5 0 0 1 3.8.72l4.43-4.43a3 3 0 1 1 1.42 1.41L5.2 24.28a5 5 0 0 1 0 5.52l4.44 4.43a3 3 0 1 1-1.42 1.42L3.8 31.2a5 5 0 0 1-3.8.72zm52-14.1a3 3 0 0 1 0-5.66V5.9A5 5 0 0 1 48.1 2h-6.27a3 3 0 0 1-5.66-2H52v17.83zm0 14.1a4.97 4.97 0 0 1-1.72-.72l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1 0-5.52l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43c.53-.35 1.12-.6 1.72-.72v9.78zM22.15 0h9.78a5 5 0 0 1-.72 3.8l4.44 4.43a3 3 0 1 1-1.42 1.42L29.8 5.2a5 5 0 0 1-5.52 0l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1-.72-3.8zm0 52c.13-.6.37-1.19.72-1.72l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43a5 5 0 0 1 5.52 0l4.43-4.43a3 3 0 1 1 1.42 1.41l-4.44 4.43c.36.53.6 1.12.72 1.72h-9.78zm9.75-24a5 5 0 0 1-3.9 3.9v6.27a3 3 0 1 1-2 0V31.9a5 5 0 0 1-3.9-3.9h-6.27a3 3 0 1 1 0-2h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 1 1 2 0v6.27a5 5 0 0 1 3.9 3.9h6.27a3 3 0 1 1 0 2H31.9z'%3E%3C/path%3E%3C/svg%3E");
+  padding: 0 10px;
+}
+.Contenedor{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+
+.Contenedor .Titulo{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000000;
+  text-transFormulario: uppercase;
+  text-align: center;
+}
+
+.Contenedor .Formulario{
+  width: 100%;
+}
+
+.Contenedor .Formulario .Contenedor_Registro{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.Contenedor .Formulario .Contenedor_Registro label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .Ingresar_Registro,
+.Contenedor .Formulario .Contenedor_Registro .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.Contenedor .Formulario .Contenedor_Registro .Ingresar_Registro:focus,
+.Contenedor .Formulario .Contenedor_Registro .textarea:focus,
+.Contenedor .Formulario .Contenedor_Registro .custom_select select:focus{
+  border: 1px solid #2c2727;
+}
+
+.Contenedor .Formulario .Contenedor_Registro p{
+   font-size: 14px;
+   color: #806c6c;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .Boton_Registrate{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #b13535;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.Contenedor .Formulario .Contenedor_Registro .Boton_Registrate:hover{
+  background: #ff0000;
+}
+
+.Contenedor .Formulario .Contenedor_Registro:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .Contenedor .Formulario .Contenedor_Registro{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Contenedor .Formulario .Contenedor_Registro label{
+    margin-bottom: 5px;
+  }
+  .Contenedor .Formulario .Contenedor_Registro.terms{
+    flex-direction: row;
+  }
+}
