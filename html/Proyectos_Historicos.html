@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Proyectos Historicos</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <!-- Styles CSS -->
+	<link rel="stylesheet" href="../css/styles.css"> 
+    <!-- Fuente Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Swiper Carrusel -->
+    <link rel="stylesheet" href="../css/Seccion_6_swiper-bundle.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- SECCION_1 / MENU NEGRO -->
+    <section class="Seccion_1">
+        <header class="Menu_1">
+            <div class="Contenedor_1">
+                <ul class="Logo_1">
+                    <img class="CSR_Logo_1" src="img/CSR-Logo.png" alt="CSR-Logo">
+                    <a>Colectivo Sur-Real</a>
+                </ul>
+                <ul>
+                    <button class="Boton_Hamburguesa_1">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                </ul>
+            </div>
+            <nav class="Nav_1">
+                <ul>
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Gmail()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                        <a href="#">Cs Gmail</a>
+                    </button>
+
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Integrantes()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                        </svg>
+                        <a href="#">Integrantes</a>
+                    </button>
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="ProyectosHistoricos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                        </svg>
+                        <a href="#">Proyectos Historicos</a>
+                    </button>
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                </ul>
+
+                <ul>
+                    <!-- BOTON-1 -->
+                    <button class="Boton_1" onclick="Colectivo_Sur_Real()">
+                        <a class="Boton_2_Aparecer" href="#">Colectivo Sur-Real</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Noticias()">
+                        <a class="Boton_2_Aparecer" href="#">Noticias</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Cañete_Cultural()">
+                        <a class="Boton_2_Aparecer" href="#">Cañete Cultural</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Actividades()">
+                        <a class="Boton_2_Aparecer" href="#">Actividades</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Libros()">
+                        <a class="Boton_2_Aparecer" href="#">Libros</a>
+                    </button>
+
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Contactenos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
+                        </svg>
+                        <a href="#">Contáctenos</a>
+                    </button>
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <img class="Icono_Bandera_Peru_1" src="../img/Icono_Bandera_Peru.png" alt="Icono-Bandera-Peru-1">
+                </ul> 
+            </nav>
+        </header>
+    </section>
+
+    <!-- SECCION_2 / CARRUSEL SLIDER -->
+    <section class="Seccion_2">
+        <!-- MENU-2 -->
+        <header class="Menu_2">
+            <div class="Titulo_Desvanecer_2" id="Logo_2" onclick="Colectivo_Sur_Real()">Colectivo<span id="Logo_A_2">Sur-Real</span></div>
+
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Libros()"><a class="Borde_Boton_2" href="#">Libros</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Noticias()"><a href="#">Noticias</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Cañete_Cultural()"><a href="#">Cañete Cultural</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Actividades()"><a href="#">Actividades</a></span>
+            <span id="Boton_2_Aparecer_Desvanecer_2" class="Boton_2" onclick="Colectivo_Sur_Real()"><a href="#">Colectivo Sur-Real</a></span>
+        </header>
+        <div class="Slider_2">
+            <!-- DISEÑO-SLIDER-2 -->
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_1.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_2.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_3.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_4.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_5.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <!-- BOTONES-2 -->
+            <a class="Boton_Previo_2" onclick="MovimientoSlider_2(-1)">&#10094;</a>
+  		    <a class="Boton_Siguiente_2" onclick="MovimientoSlider_2(1)">&#10095;</a>
+            
+            <!-- BOTON-CIRCULO-2 -->
+		    <div class="Boton_Circulo_2" style="text-align:center">
+			    <span class="Circulo_2" onclick="ActualSlider(1)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(2)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(3)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(4)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(5)"></span>
+		    </div>
+        </div>
+    </section>
+
+    <!-- SECCION_5 / ULTIMO VIDEO -->
+    <section class="Seccion_5_Ultimo_Video"> 
+        <div class="Contenedor_General_5"> 
+            <div class="Información_5"> 
+                <h1 class="Titulo_5">Ultimo Video</h1> 
+                <hr class="Subrayado_Rojo_Horizontal_Seccion_5">
+                <p class="Descripcion_5">  
+                    El valle de Cañete, por su proximidad a Lima es muy 
+                    visitado, ya sea por su acogedor paisaje, complejo 
+                    arqueológico y su arquitectura Colonial, también por 
+                    sus bondades climáticas, abundancia de recursos 
+                    hídricos y prodiga fertilidad de sus campo agrarios.
+                    Antiguamente se le denominaba WARKU al valle de Cañete,
+                </p>
+            </div>
+            <li><iframe class="Video_Proyectos_Historicos" width="560" height="315" src="https://www.youtube.com/embed/Rs4lIEIsjMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <div>
+    </section>
+
+    <!-- SECCION_5 / DOCUMENTALES DE CAÑETE -->
+    <section class="Seccion_5_Documentales_De_Cañete"> 
+        <div class="Contenedor_General_5"> 
+            <div class="Información_5"> 
+                <h1 class="Titulo_5">Documentales de Cañete</h1> 
+                <hr class="Subrayado_Rojo_Horizontal_Seccion_5">
+                <p class="Descripcion_5">  
+                    El valle de Cañete, por su proximidad a Lima, es muy
+                    visitado, ya sea por su acogedor paisaje, complejo
+                    arqueológico y su arquitectura Colonial, también 
+                    por sus bondades climáticas, abundancia de recursos
+                    hídricos y prodiga fertilidad de sus campo agrarios.
+                    Antiguamente se le denominaba WARKU al valle de Cañete,
+                </p>
+            </div>
+            <li><iframe class="Video_Proyectos_Historicos" width="560" height="315" src="https://www.youtube.com/embed/nnb7zey9U10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <div>
+    </section>
+
+    <!-- SECCION_5 / FESTIVAL AFROPERUANO KUTUKA -->
+    <section class="Seccion_5_Fondo_Festival_Afroperuano_Kutuka"> 
+        <div class="Contenedor_General_5"> 
+            <div class="Información_5"> 
+                <h1 class="Titulo_5">Festival Afroperuano Kutuká</h1> 
+                <hr class="Subrayado_Rojo_Horizontal_Seccion_5">
+                <p class="Descripcion_5">  
+                    El 2011 crearón el Festival Afroperuano Kutuká, 
+                    esperando unir en dos días a las cunas afroperuanas 
+                    del país, para volver a mostrar la rica tradición de 
+                    esta cultura en mención y llevarlo a un espacio de 
+                    investigación para recuperar toda la manifestación 
+                    afroperuana en especial de Cañete asi creándose una 
+                    biblioteca especializada y con publicaciones. Siendo 
+                    reconocido a nivel Internacional y respaldado por 
+                    el Ministerio de Cultura.
+                </p>
+            </div>
+            <li><iframe class="Video_Proyectos_Historicos" width="560" height="315" src="https://www.youtube.com/embed/rVr7AR2L6O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <div>
+    </section>
+
+    <!-- SECCION_5 / RESEÑA HISTORICA -->
+    <section class="Seccion_5"> 
+        <div class="Contenedor_General_5"> 
+            <div class="Información_5"> 
+                <h1 class="Titulo_5">Reseña Historica</h1> 
+                <hr class="Subrayado_Rojo_Horizontal_Seccion_5">
+                <p class="Descripcion_5">  
+                    Somos una asociación fundada el 13 de abril del 2010, 
+                    con el objetivo de rescatar y revalorar el Patrimonio
+                    material e inmaterial de la provincia de Cañete, por
+                    lo cual está integrado por profesionales dedicados al 
+                    tema cultural (historiadores, escritores, gestores 
+                    culturales, investigadores, artistas plásticos,
+                    críticos literarios, fotógrafos, antropólogos, entre
+                    otros), realizando todo un trabajo de sensibilización
+                    en los 16 distritos, a través de sus
+                    Intervenciones Artísticas. 
+                    Somos una asociación fundada el 13 de abril del 2010, 
+                    con el objetivo de rescatar y revalorar el Patrimonio
+                    material e inmaterial de la provincia de Cañete, por
+                    lo cual está integrado por profesionales dedicados al 
+                </p>
+            </div>
+            <li><iframe class="Video_Proyectos_Historicos" width="560" height="315" src="https://www.youtube.com/embed/ub91uoZg6BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <div>
+    </section>
+
+    <!-- SECCION_7 / PIE DE PAGINA -->
+    <div class="Seccion_7">
+        <footer class="Contenedor_General_7">
+            <div class="Informacion_7">
+                <div class="Contenido_7">
+                    <figure>
+                        <a href="#">
+                            <iframe class="Mapa_7" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.355247709599!2d-76.3910382!3d-13.0766576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff937bdef41ed%3A0x459ba1fd70e8af39!2sJiron%20O%20Higgins%20356%2C%20San%20Vicente%20de%20Ca%C3%B1ete%2015701!5e0!3m2!1ses-419!2spe!4v1670799232192!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </a>
+                    </figure>
+                </div>
+                <div class="Contenido_7">
+                    <h2>Colectivo Sur-Real</h2>
+                    <p><i class="fa fa-map-marker" id="map">  Jr.O'Higgins 356 San Vicente de Cañete</i></p>
+                    <p><i class="fa fa-phone" id="fono">  954708490</i></p>
+                    <p><i class="fa fa-envelope" id="fono">  esarmiento18gc@gmail.com</i></p>
+                </div>
+                <div class="Contenido_7">
+                    <h2>Siganos en redes</h2>
+                    <div class="Siganos_Redes_7">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+<!-- Main JS -->
+<script src="../js/main.js"></script>
+<!-- Swiper Seccion_6 -->
+<script src="../js/Seccion_6_swiper-bundle.min.js"></script>
+<!-- SECCION_6 -->
+<script src="../js/Seccion_6.js"></script>
+<!-- Seccion_7 Iconos -->
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</body>
+</html>

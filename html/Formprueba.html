@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Formulario Registro</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <!-- Formulario proximos eventos -->
+    <link rel="stylesheet" href="../css/Formulario_Proximos_Eventos.css">
+	<!-- Font Awesomw -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<!-- Conectar a la base de datos -->
+	<link rel="stylesheet" href="../resources/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <div class="Titulo">
+          Registrate Ahora
+        </div>
+        <div class="Formulario">
+            <div class="Contenedor_Registro">
+                <label>Nombres</label>
+                <input id="NOM_USER" placeholder="Nombre" type="text" class="form-control" />
+            </div>  
+            <div class="Contenedor_Registro">
+                <label>Apellidos</label>
+                <input id="APE_USER" placeholder="Apellidos" type="text" class="form-control" />
+           </div>  
+           <div class="Contenedor_Registro">
+                <label>Correo</label>
+                <input id="GMA_USER" placeholder="Gmail" type="text" class="form-control" />
+            </div> 
+           <div class="Contenedor_Registro">
+                <label>Celular</label>
+                <input id="CEL_USER" placeholder="Celular" type="text" class="form-control" />
+           </div>  
+            <div class="Contenedor_Registro">
+                <label>Profesión</label>
+                <input id="PRO_USER" placeholder="Profesión" type="text" class="form-control">
+            </div> 
+            <div class="Contenedor_Registro">
+                <label>Lugar de procedencia</label>
+                <input id="LDP_USER" placeholder="Lugar de procedencia" type="text" class="form-control">
+            </div> 
+
+            <div class="Contenedor_Registro">
+                <label>Evento</label>
+                <div class="custom_select">
+                    <select>
+                        <option disabled selected=""></option>
+                        <option value="male">Evento_1</option>
+                        <option value="male">Evento_2</option>
+                        <option value="male">Evento_3</option>
+                        <option value="male">Evento_4</option>
+                        <option value="male">Evento_5</option>
+                        <option value="male">Evento_6</option>
+                    </select>
+                </div>
+            </div> 
+            <div class="Contenedor_Registro">
+                <button id="btnCrear" type="submit" class="btn btn-secondary">Registrate</button>
+            </div>
+        </div>
+    </div>
+<!-- Boostrap -->
+<script src="../resources/js/bootstrap.bundle.min.js"></script>
+<!-- Conectar base de datos -->
+<script src="../resources/registro.js"></script>
+</body>
+</html>

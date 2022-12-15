@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario Registro</title>
+	<!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<!-- Boostrap -->
+	<link rel="stylesheet" href="resources/node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- Formulario CSS -->
+	<link rel="stylesheet" href="../resources/css/styles.css">
+</head>
+
+<body>
+	<div id="overview"> <!-- overview -->
+    	<section class="order" id="order"> <!-- order -->
+        	<div id="form" class="row">
+            	<form class="form">
+					<h1 class="heading"><span>Registrate</span> ahora</h1>
+                	<div class="inputBox">
+                    	<input id="NOM_USER" placeholder="Nombre" type="text" class="form-control">
+                    	<input id="APE_USER" placeholder="Apellido" type="text" class="form-control">
+						<input id="GMA_USER" placeholder="Gmail" type="text" class="form-control">
+                    	<input id="CEL_USER" placeholder="Celular" type="text" class="form-control">
+						<input id="PRO_USER" placeholder="Profesión" type="text" class="form-control">
+                    	<input id="LDP_USER" placeholder="Lugar de procedencia" type="text" class="form-control">
+						<select class="form-control">
+							<option disabled selected="">Selecciona el evento</option>
+							<option value="male">Evento_1</option>
+							<option value="male">Evento_2</option>
+							<option value="male">Evento_3</option>
+							<option value="male">Evento_4</option>
+							<option value="male">Evento_5</option>
+							<option value="male">Evento_6</option>
+						</select>
+                	</div>
+                	<button id="btnCrear" type="submit" class="btn btn-secondary">Registrate</button>
+            	</form>
+        	</div>
+    	</section>
+	</div>
+<script src="../resources/js/bootstrap.bundle.min.js"></script>
+<script src="../resources/registro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Actividades</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
+    <!-- Styles CSS -->
+	<link rel="stylesheet" href="../css/Styles.css"> 
+</head>
+<body>
+    <!-- SECCION_1 / MENU NEGRO -->
+    <section class="Seccion_1">
+        <header class="Menu_1">
+            <div class="Contenedor_1">
+                <ul class="Logo_1">
+                    <img class="CSR_Logo_1" src="img/CSR-Logo.png" alt="CSR-Logo">
+                    <a>Colectivo Sur-Real</a>
+                </ul>
+                <ul>
+                    <button class="Boton_Hamburguesa_1">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                </ul>
+            </div>
+            <nav class="Nav_1">
+                <ul>
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Gmail()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                        <a href="#">Cs Gmail</a>
+                    </button>
+
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Integrantes()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                        </svg>
+                        <a href="#">Integrantes</a>
+                    </button>
+                    <!-- BOTON-1 -->
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="ProyectosHistoricos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                        </svg>
+                        <a href="#">Proyectos Historicos</a>
+                    </button>
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                </ul>
+
+                <ul>
+                    <!-- BOTON-1 -->
+                    <button class="Boton_1" onclick="Colectivo_Sur_Real()">
+                        <a class="Boton_2_Aparecer" href="#">Colectivo Sur-Real</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Noticias()">
+                        <a class="Boton_2_Aparecer" href="#">Noticias</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Cañete_Cultural()">
+                        <a class="Boton_2_Aparecer" href="#">Cañete Cultural</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Actividades()">
+                        <a class="Boton_2_Aparecer" href="#">Actividades</a>
+                    </button>
+
+                    <button class="Boton_1" onclick="Libros()">
+                        <a class="Boton_2_Aparecer" href="#">Libros</a>
+                    </button>
+
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <button class="Boton_1" onclick="Contactenos()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
+                        </svg>
+                        <a href="#">Contáctenos</a>
+                    </button>
+                    <hr class="Linea_Vertical_1" width="2px" noshade="noshade">
+                    <img class="Icono_Bandera_Peru_1" src="../img/Icono_Bandera_Peru.png" alt="Icono-Bandera-Peru-1">
+                </ul> 
+            </nav>
+        </header>
+    </section>
+
+    <!-- SECCION_2 / CARRUSEL SLIDER -->
+    <section class="Seccion_2">
+        <!-- MENU-2 -->
+        <header class="Menu_2">
+            <div class="Titulo_Desvanecer_2" id="Logo_2" onclick="Colectivo_Sur_Real()">Colectivo<span id="Logo_A_2">Sur-Real</span></div>
+
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Libros()"><a class="Borde_Boton_2" href="#">Libros</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Noticias()"><a href="#">Noticias</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Cañete_Cultural()"><a href="#">Cañete Cultural</a></span>
+            <span id="Boton_2_Desvanecer" class="Boton_2" onclick="Actividades()"><a href="#">Actividades</a></span>
+            <span id="Boton_2_Aparecer_Desvanecer_2" class="Boton_2" onclick="Colectivo_Sur_Real()"><a href="#">Colectivo Sur-Real</a></span>
+        </header>
+        <div class="Slider_2">
+            <!-- DISEÑO-SLIDER-2 -->
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_1.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_2.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_3.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_4.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="Diseño_Slider_2 Diseño_2">
+                <div class="Slider_Titulo_2">
+                    <h1>Aprendizaje</h1>
+                    <p>A travez de la indagación,<br>No hay mejor manera de aprender que leyendo</p>
+                </div>
+                <img src="../img/Slider_1_IMG_5.png" style="width: 100%; height: 100%;">
+            </div>
+
+            <!-- BOTONES-2 -->
+            <a class="Boton_Previo_2" onclick="MovimientoSlider_2(-1)">&#10094;</a>
+  		    <a class="Boton_Siguiente_2" onclick="MovimientoSlider_2(1)">&#10095;</a>
+            
+            <!-- BOTON-CIRCULO-2 -->
+		    <div class="Boton_Circulo_2" style="text-align:center">
+			    <span class="Circulo_2" onclick="ActualSlider(1)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(2)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(3)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(4)"></span>
+			    <span class="Circulo_2" onclick="ActualSlider(5)"></span>
+		    </div>
+        </div>
+    </section>
+
+    <!-- SECCION_8 / PROXIMOS EVENTOS -->
+    <section class="Seccion_8">
+        <div class="Contenedor_General_8">
+            <div class="Informacion_8">
+                <h1 class="Titulo_8">Proximos eventos</h1>
+                <hr class="Subrayado_Rojo_Horizontal_Seccion_8">
+            </div>
+
+            <!-- TARJETAS -->
+            <div class="Contenedor_Card_8">
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_1()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_2()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_3()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Contenedor_Card_8">
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_4()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_5()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="Contenido_Card_8">
+                    <figure>
+                        <img src="../img/Foto_Feria_De_Libro.png">
+                    </figure>
+                    <div class="Informacion_Card_8">
+                        <h3>Feria del libro</h3>
+                        <p>Del 1 de julio al 1 de octubre de 2022</p>
+                        <button class="Boton_8">
+                            <div onclick="Direccion_6()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                                </svg>
+                            </div>
+                    
+                            <div onclick="Compartir()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                                </svg>
+                            </div>
+                            <div onclick="Formulario_Proximos_Eventos()">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                                    <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION_7 / PIE DE PAGINA -->
+    <section class="Seccion_7">
+        <footer class="Contenedor_General_7">
+            <div class="Informacion_7">
+                <div class="Contenido_7">
+                    <figure>
+                        <a href="#">
+                            <iframe class="Mapa_7" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.355247709599!2d-76.3910382!3d-13.0766576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff937bdef41ed%3A0x459ba1fd70e8af39!2sJiron%20O%20Higgins%20356%2C%20San%20Vicente%20de%20Ca%C3%B1ete%2015701!5e0!3m2!1ses-419!2spe!4v1670799232192!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </a>
+                    </figure>
+                </div>
+                <div class="Contenido_7">
+                    <h2>Colectivo Sur-Real</h2>
+                    <p><i class="fa fa-map-marker" id="map">  Jr.O'Higgins 356 San Vicente de Cañete</i></p>
+                    <p><i class="fa fa-phone" id="fono">  954708490</i></p>
+                    <p><i class="fa fa-envelope" id="fono">  esarmiento18gc@gmail.com</i></p>
+                </div>
+                <div class="Contenido_7">
+                    <h2>Siganos en redes</h2>
+                    <div class="Siganos_Redes_7">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+<!-- Main JS -->
+<script src="../js/main.js"></script>
+<!-- Swiper Seccion_6 -->
+<script src="../js/Seccion_6_swiper-bundle.min.js"></script>
+<!-- SECCION_6 -->
+<script src="../js/Seccion_6.js"></script>
+<!-- Seccion_7 Iconos -->
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</body>
+</html>
